@@ -1,1 +1,126 @@
+.glavnaya{
 
+  background-size: 100% ;
+   border-radius: 20px;
+   color: #F9F6DB;
+height: 800px;
+}
+
+
+.kartinka{
+  width: 10%;
+  height: 10%;
+  border-radius: 90%;
+  padding: 5%;
+}
+
+.aboutme{
+  position: relative;
+  top: 20px;
+  background-color: #ECECEB;
+  height: 400px;
+ border-radius: 20px;
+}
+
+.aboutme1{
+    position: relative;
+  background-color: #CDCDCD;
+  height: 310px;
+    top: -7%;
+  display: inline-block;
+width: 25%;
+ border-radius: 15px;
+ margin-left: 7.5%;
+margin-right: 5%;
+}
+
+.aboutme2{
+    position: relative;
+  background-color: #CDCDCD;
+  height: 310px;
+  top: 10%;
+display: inline-block;
+width: 25%;
+ border-radius: 15px;
+margin-right: 5%;
+}
+
+.aboutme3{
+
+    position: relative;
+
+  background-color: #CDCDCD;
+  height: 310px;
+  top: 3%;
+  display: inline-block;
+width: 25%;
+ border-radius: 15px;
+margin-right: 5%;
+}
+
+
+.contact{
+  background-color: #333333;
+  border-radius: 10px;
+  margin-top: 40px;
+  height: 300px;
+  color: #CDCDCD;
+}
+
+.contact1{
+  position: relative;
+  top: 10px;
+  background-color: #ECECEB;
+  height: 150px;
+ border-radius: 20px;
+ margin-left:15%;
+ margin-right:15%;
+}
+
+.contactinst{
+  position: relative;
+height: 100px;
+top: 25%;
+display: inline-block;
+width: 25%;
+border-radius: 15px;
+margin-left: 7.5%;
+margin-right: 5%;
+}
+
+.contact2{
+  position: relative;
+height: 100px;
+top: 10%;
+display: inline-block;
+width: 25%;
+border-radius: 15px;
+margin-right: 5%;
+color:#333333;
+}
+
+.contact3{
+  position: relative;
+height: 100px;
+top: 10%;
+display: inline-block;
+width: 25%;
+border-radius: 15px;
+margin-right: 5%;
+color:#333333;
+}
+
+
+.inst{
+   display: inline-block;
+   margin-right: 5%;
+}
+.teleg{
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.vkcom{
+  display: inline-block;
+  margin-right: 5%;
+}
