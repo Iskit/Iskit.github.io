@@ -25,13 +25,15 @@ height: 800px;
 
   .aboutme_item{
     background-color: #CDCDCD;
+
     height: 310px;
-    width: 500px;
+    width: 25%;
     text-align: center;
     border-radius: 15px;
     margin-left: 3%;
     margin-right: 3%;
   }
+
 
 
 .contact{
