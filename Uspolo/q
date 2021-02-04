@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Us POLO</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>US.Polo</span>
+    </div>
+    <div id="about">
+      <a href="#" title="Возможности" onclick="slowScroll('#main')">Adout</a>
+      <a href="#" onclick="slowScroll('#overview')" title="Преимущества">Main</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Contacts</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+    </div>
+  </header>
+
+  <div id="top" style="background-image: url(retrieval_inshop.png)">
+    <h1>Clothing store</h1>
+  </div>
+
+  <div id="main">
+    <div class="intro">
+      <h2>Quality clothes</h2>
+      <span>Large selection of clothing</span>
+    </div>
+    <div class="text">
+      <span>  Here you can find branded, high-quality, original goods. We have a large selection of products for every taste and color </span>
+    </div>
+  </div>
+
+
+  <div id="contacts">
+    <center><h5>Contact with us</h5></center>
+    <form id="form_input">
+    <div>
+    <h1>+7 705 911 33 00                                       instagram: @us.polo</h1>
+
+</div>
+
+
+    </form>
+  </div>
+
+  <div id="faq">
+    <div>
+      <span class="title">Brends</span><br>
+      <span class="heading">ZARA, LSW, GUCCI</span>
+      <p>And also LV, PRODA, NIKE, ANDER URMOR, Adidas and other  </p>
+      <center>  <div class="knopkalar">
+          <center><a href="#on" class="knopka">Wiew catalog</a></center>
+        </div></center>
+
+    </div>
+    <div>
+      <span class="title">Online order</span><br>
+      <span class="heading">YOU can order online over the internet</span>
+      <p>To do this, follow the link</p>
+      <center>  <div class="knopkalar">
+          <center><a href="#on" class="knopka">BUY ONLINE</a></center>
+        </div></center>
+
+
+    </div>
+    <div>
+      <span class="title">Adresses</span><br>
+      <span class="heading">Nur-Sultan city</span>
+      <p>Mangilik EL 1, block C1 </p>
+      <center>  <div class="knopkalar">
+          <center><a href="#on" class="knopka">Get to us</a></center>
+        </div></center>
+
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+</body>
+</html>
